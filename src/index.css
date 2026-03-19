@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F1E8;
+  font-family: system-ui, sans-serif;
+  color: #6B5B4C;
+}
+
+html{
+  scroll-behavior: smooth;
+  /* Firefox version */
+  scrollbar-color: #6B5B4C;
+  /* scrollbar-highlight-color: #F5F1E8; */
+}
+/* background of bar */
+html::-webkit-scrollbar-track {
+  background-color: #6B5B4C;
+}
+/* the bar */
+html::-webkit-scrollbar-thumb {
+  background-color: darkslategrey;
+}
+/* hover over the bar */
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #F5F1E8;
+}

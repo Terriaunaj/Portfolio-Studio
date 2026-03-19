@@ -1,0 +1,65 @@
+.about {
+    background-color: #8B8C69;
+    padding: 8rem 0;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-video {
+    width: 100%;
+    max-width: 360px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.about-media {
+    width: 360px;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about-tiktok-button {
+    text-decoration: none;
+    color: #3d3e26;
+}
+
+.about-tiktok-button:hover {
+    color: #65654c;
+}
+
+.about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-title {
+    font-size: 2rem;
+}
+
+.about-text {
+    text-align: center;
+}
